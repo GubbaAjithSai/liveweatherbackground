@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dynamic land</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <time id="time">12:00:00 pm</time>
+    <div class="greeting">
+        <h1> 
+            <span id="greeting">GOOD AFTERNOON</span>
+            <SPAN id="name" contenteditable="true"></SPAN>
+        </h1>
+    </div>
+    <div class="container">
+        <div class="search">
+            <input class="searchbar" type="text" placeholder="Search">
+            <button>
+                <img src="search.png" alt="search">
+            </button>
+        </div>
+        <div class="weather">
+            <h2 id="city"></h2>
+            <h1 id="tem"></h1>
+            <div class="flex">
+                <img src="" alt="" class="icon">
+                <p id="description"></p>
+            </div>
+            <p id="pressure"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

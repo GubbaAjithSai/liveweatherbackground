@@ -1,0 +1,84 @@
+*
+{
+    box-sizing: border-box;
+}
+body{  
+    color: white;
+    font-size: 120%;
+}
+#time{
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: black;
+}
+h1{
+    margin-bottom: 2rem;
+    font-size: 50px;
+}
+
+h2{
+    margin-bottom: 0.5rem;
+}
+.greeting{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    align-items: center;
+    color: black;
+}
+
+.container{
+    background: #000000d0;
+    width: 25%;
+    border-radius: 20px;
+    padding: 38px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    box-shadow: 5px -5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.searchbar{
+    border-radius: 37px;
+    padding: 0.4em 1em;
+    width: 90%;
+    height: 40px;
+    background: #7c7c7c2b;
+    border: none;
+    color: white;
+}
+#city{
+    font-size: 1.5em;
+}
+#tem{
+ font-size: 2em;
+ margin-bottom: 0.4em;
+}
+#description{
+    font-size: 1em;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-top: 14px;
+    text-transform: capitalize;
+}
+p{
+    margin: 0px;
+}
+.flex{
+    display: flex;
+}
+.search button{
+    border: 0;
+    border-radius: 50%;
+    width: 45px;
+    height:45px;
+    background-color: #7c7c7c2b;
+    margin-left: 5px;
+}
+.search button img{
+    width:20px ;
+}
+.search{
+    display: flex;
+}
