@@ -1,4 +1,3 @@
-require("dotenv").config();
 const time=document.getElementById('time');
 //showTime
 function showTime(){
@@ -32,7 +31,7 @@ else{
 //api setup
 
 let cityName="Hyderabad",
-apiKey=process.env.api_key;
+apiKey="fb9eb80a828aa9ec15f92dcdc683f40a";
 function get(cityName,apiKey) {
     let api="https://api.openweathermap.org/data/2.5/weather?q=" +cityName +"&units=metric&appid=" +apiKey;
     fetch(api).then((Response)=>Response.json())
